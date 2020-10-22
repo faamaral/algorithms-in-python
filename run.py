@@ -1,7 +1,7 @@
 ### Test
 
 from dados import arquivo
-from busca_em_profundidade import dfs
+from depth_first_search import dfs
 
 graph = arquivo.extract_data('grafo.txt')
 
