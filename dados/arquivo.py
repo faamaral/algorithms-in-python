@@ -33,3 +33,4 @@ def extract_data(file_name):
             graph[line[0]].append({line[1]: line[2]})
             graph[line[1]].append({line[0]: line[2]})
     return graph
+
